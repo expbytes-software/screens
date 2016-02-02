@@ -1,0 +1,35 @@
+/**
+ *
+ * Set base font-size at 62.5% for easier calculations of rems (1rem = 10px).
+ * Prevent iOS and IE text size adjust after device orientation change,
+ * without disabling user zoom.
+ */
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+/**
+ * Default body styles.
+ */
+body {
+  color: $color-secondary;
+  font-family: sans-serif;
+  font-size: 1.6em;
+  font-weight: 300;
+  letter-spacing: .01em;
+  line-height: 1.6em;
+  margin: 0;
+}
+
+/**
+ * Set box-sizing globally to handle padding and border widths
+ */
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}

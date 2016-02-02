@@ -1,0 +1,31 @@
+/**
+ * Address margin not present in Safari.
+ */
+figure {
+  margin: 1.5em 4rem;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+hr {
+  height: 0;
+}
+
+/**
+ * Contain overflow in all browsers.
+ */
+pre {
+  overflow: auto;
+}
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em; 
+}

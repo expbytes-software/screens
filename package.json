@@ -1,0 +1,29 @@
+{
+  "name": "screens",
+  "version": "0.1.0",
+  "description": "A minimalist CSS framework.",
+  "homepage": "http://expbytes.com/github/screens",
+  "repository": "https://github.com/expbytes-software/screens.git",
+  "license": "MIT",
+  "author": "Kimmo Lankila <kimmo.lankila@expbytes.com>",
+  "main": "dist/screens.css",
+  "keywords": [
+    "css",
+    "css3",
+    "html",
+    "html5",
+    "sass",
+    "flexbox",
+    "responsive"
+  ],
+  "dependencies": {
+    "support-for": "^1.0.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.1.1"
+  },
+  "engines": {
+    "node": ">=0.12.0"
+  }
+}

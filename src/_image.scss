@@ -1,0 +1,13 @@
+/**
+ * Remove border when inside `a` element in IE 10.
+ */
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow not hidden in IE 10/11.
+ */
+svg:not(:root) {
+  overflow: hidden;
+}
